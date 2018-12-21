@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" >
+<parameter name="url" value="http://ec2-54-177-6-43.us-west-1.compute.amazonaws.com/" />
+
+<test name="SPICEJET">
+<parameter name="searchKey" value="UK" />
+<classes>
+<class name="com_Actions.Actions_performing">
+</class>
+</classes>
+</test>
+</suite>
